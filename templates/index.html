@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to RAG ChatBot</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+      .hero {
+        background: linear-gradient(to right, #6a11cb, #2575fc);
+        color: white;
+        padding: 6rem 2rem;
+        border-radius: 0 0 50% 50% / 0 0 8% 8%;
+        margin-bottom: 4rem;
+      }
+      .hero h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+      }
+      .hero p {
+        font-size: 1.25rem;
+      }
+      .btn-custom {
+        background-color: #ffde59;
+        border-color: #ffde59;
+        color: #333;
+        font-weight: bold;
+        padding: 0.75rem 1.5rem;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+      }
+      .btn-custom:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+      .feature {
+        text-align: center;
+        padding: 2rem;
+      }
+      .feature i {
+        font-size: 3rem;
+        color: #2575fc;
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="hero">
+        <h1 class="display-4">AICL RAG Powered ChatBot</h1>
+        <p class="lead">
+          An intelligent assistant to answer your questions based on AICL
+          documents.
+        </p>
+        <a href="/chat" class="btn btn-custom btn-lg mt-3">Start Chatting</a>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="feature">
+            <i class="fas fa-file-pdf"></i>
+            <h3>PDF Processing</h3>
+            <p>
+              Upload and process your PDF documents to build a knowledge base.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature">
+            <i class="fas fa-brain"></i>
+            <h3>Intelligent Answers</h3>
+            <p>
+              Leverages Large Language Models to provide accurate and contextual
+              answers.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature">
+            <i class="fas fa-history"></i>
+            <h3>Conversation History</h3>
+            <p>
+              Remembers your conversation to provide a seamless chat experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="py-4 mt-5 text-center text-muted">
+      <div class="container">
+        <small>Copyright &copy; RAG ChatBot 2026</small>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
